@@ -141,7 +141,7 @@ gulp.task('clean-client', function cleanClient() {
 
 gulp.task('clean', ['clean-client']);
 
-gulp.task('lint', ['lint-client', 'lint-server', 'lint-gateway']);
+gulp.task('lint', ['lint-client', 'lint-gateway']);
 
 gulp.task('default', ['lint', 'build-client-dev', 'build-client-img', 'build-client-font', 'build-client-html']);
 
