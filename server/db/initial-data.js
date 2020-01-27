@@ -1,5 +1,4 @@
 module.exports = [
-
   {
     id: '1',
     tags: [ 'Deployment' ],
@@ -166,5 +165,4 @@ module.exports = [
     },
     image: '/img/logo/ruby.png'
   }
-
 ]

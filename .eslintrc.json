@@ -30,10 +30,10 @@
         "no-console": "off",
         "brace-style": ["error", "1tbs", { "allowSingleLine": true}],
         "comma-spacing": ["error", { "before": false, "after": true }] ,
-        "indent": ["error", 4, { "SwitchCase": 1 } ] ,
+        "indent": ["error", 2, { "SwitchCase": 1 } ] ,
         "no-trailing-spaces": ["error", { "skipBlankLines" : true } ] ,
         "quotes": ["error", "single", "avoid-escape"] ,
-        "semi": ["error", "always" ],
-        "semi-spacing": ["error", { "before": false, "after": true } ] 
+        "semi": ["error", "never" ],
+        "semi-spacing": ["error", { "before": false, "after": true } ]
     }
 }
